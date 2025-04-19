@@ -53,7 +53,7 @@
     <Color x:Key="TransparentPanelColor">#0AFFFFFF</Color>
     <Color x:Key="TransparentButtonColor">#19FFFFFF</Color>
     <Color x:Key="TransparentPlayButtonColor">#4F00CCCC</Color>
-    <Color x:Key="TransparentTitleColor">#f2f2f2ff</Color>
+    <Color x:Key="TransparentTitleColor">#fff2f2f2</Color>
 
     <SolidColorBrush x:Key="ControlBackgroundBrush" Color="Transparent" />
     <SolidColorBrush x:Key="TextBrush" Color="{DynamicResource TextColor}" />
@@ -91,7 +91,7 @@
     </LinearGradientBrush>
 
     <ImageBrush x:Key="BackgroundImage" ImageSource="{ThemeFile 'Images/Background.png'}" TileMode="None" Stretch="Fill"/>
-    
+
     <!-- Window background brushes -->
     <ImageBrush x:Key="WindowBackgourndBrushTransparent" ImageSource="{ThemeFile 'Images/noise/background0.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute" RenderOptions.BitmapScalingMode="LowQuality" RenderOptions.CachingHint="Cache" Opacity="0.85"/>
     <ImageBrush x:Key="WindowBackgourndBrush" ImageSource="{ThemeFile 'Images/noise/background0.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute" Opacity="0.85" RenderOptions.BitmapScalingMode="LowQuality" RenderOptions.CachingHint="Cache"/>
@@ -106,13 +106,13 @@
     <ImageBrush x:Key="WindowBackgourndBrushHighlightHover" ImageSource="{ThemeFile 'Images/noise/highlight0.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute" RenderOptions.BitmapScalingMode="LowQuality" RenderOptions.CachingHint="Cache" Opacity="0.7"/>
     <ImageBrush x:Key="WindowBackgourndBrushHighlightFade" ImageSource="{ThemeFile 'Images/noise/highlight1_fade.png'}" Opacity="0.6" RenderOptions.CachingHint="Cache"/>
     <ImageBrush x:Key="WindowBackgourndBrushHighlightHoverFade" ImageSource="{ThemeFile 'Images/noise/highlight0_fade.png'}" ViewportUnits="Absolute" RenderOptions.CachingHint="Cache" Opacity="0.6"/>
-    
+
     <!-- Button brushes -->
     <ImageBrush x:Key="ButtonOpaqueBrush" ImageSource="{ThemeFile 'Images/noise/background1.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute" Opacity="1" RenderOptions.BitmapScalingMode="LowQuality" RenderOptions.CachingHint="Cache"/>
     <ImageBrush x:Key="ButtonDefaultBrush" ImageSource="{ThemeFile 'Images/noise/background2.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute" Opacity="0.8" RenderOptions.BitmapScalingMode="LowQuality" RenderOptions.CachingHint="Cache"/>
     <ImageBrush x:Key="ButtonHoveredBrush" ImageSource="{ThemeFile 'Images/noise/background2_5.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute" Opacity="0.9" RenderOptions.BitmapScalingMode="LowQuality" RenderOptions.CachingHint="Cache"/>
     <ImageBrush x:Key="ButtonSelectedBrush" ImageSource="{ThemeFile 'Images/noise/background3.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute" Opacity="0.75" RenderOptions.BitmapScalingMode="LowQuality" RenderOptions.CachingHint="Cache"/>
-    
+
     <!-- Input field brushes -->
     <ImageBrush x:Key="InputOpaqueBrush" ImageSource="{ThemeFile 'Images/noise/background1.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute" Opacity="1" RenderOptions.BitmapScalingMode="LowQuality" RenderOptions.CachingHint="Cache"/>
     <ImageBrush x:Key="InputDefaultBrush" ImageSource="{ThemeFile 'Images/noise/background1.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute" Opacity="0.4" RenderOptions.BitmapScalingMode="LowQuality" RenderOptions.CachingHint="Cache"/>
@@ -120,7 +120,7 @@
     <ImageBrush x:Key="InputSelectedBrush" ImageSource="{ThemeFile 'Images/noise/background2_5.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute" Opacity="0.45" RenderOptions.BitmapScalingMode="LowQuality" RenderOptions.CachingHint="Cache"/>
     <SolidColorBrush x:Key="InputBorderBrush" Color="Gray"/>
     <SolidColorBrush x:Key="InputBorderHighlightBrush" Color="{DynamicResource GlyphColor}"/>
-    
+
     <!-- Drop shadow textures -->
     <ImageBrush x:Key="DropShadowBrushRight" ImageSource="{ThemeFile 'Images/rightDropShadow.png'}"/>
     <ImageBrush x:Key="DropShadowBrushLeft" ImageSource="{ThemeFile 'Images/leftDropShadow.png'}"/>
@@ -135,12 +135,12 @@
     <sys:Double x:Key="DropShadowRadius">22</sys:Double>
     <sys:Double x:Key="DropShadowOpacity">0.75</sys:Double>
     <DropShadowEffect x:Key="DefaultDropShadow" BlurRadius="{DynamicResource DropShadowRadius}" ShadowDepth="0" Color="Black" RenderingBias="Performance" Opacity="{DynamicResource DropShadowOpacity}"/>
-    <Thickness x:Key="DropShadowThickness" 
-               Left="{StaticResource DropShadowRadius}" 
-               Top="{StaticResource DropShadowRadius}" 
-               Right="{StaticResource DropShadowRadius}" 
+    <Thickness x:Key="DropShadowThickness"
+               Left="{StaticResource DropShadowRadius}"
+               Top="{StaticResource DropShadowRadius}"
+               Right="{StaticResource DropShadowRadius}"
                Bottom="{StaticResource DropShadowRadius}"/>
-    
+
     <!-- Fading Brushes -->
     <LinearGradientBrush x:Key="LeftFadingBrush" StartPoint="0,0" EndPoint="1,0.1" RenderOptions.BitmapScalingMode="LowQuality" RenderOptions.CachingHint="Cache">
         <GradientStop Color="Black" Offset="0.1"/>
