@@ -53,6 +53,7 @@
     <Color x:Key="TransparentPanelColor">#0AFFFFFF</Color>
     <Color x:Key="TransparentButtonColor">#19FFFFFF</Color>
     <Color x:Key="TransparentPlayButtonColor">#4F00CCCC</Color>
+    <Color x:Key="TransparentTitleColor">#f2f2f2ff</Color>
 
     <SolidColorBrush x:Key="ControlBackgroundBrush" Color="Transparent" />
     <SolidColorBrush x:Key="TextBrush" Color="{DynamicResource TextColor}" />
@@ -74,6 +75,7 @@
     <SolidColorBrush x:Key="TransparentPanelBrush" Color="{DynamicResource TransparentPanelColor}"/>
     <SolidColorBrush x:Key="TransparentButtonBrush" Color="{DynamicResource TransparentButtonColor}"/>
     <SolidColorBrush x:Key="TransparentPlayButtonBrush" Color="{DynamicResource TransparentPlayButtonColor}"/>
+    <SolidColorBrush x:Key="TransparentTitleColorBrush" Color="{DynamicResource TransparentTitleColor}"/>
 
     <ImageBrush x:Key="PlayButtonBackgroundBrush" ImageSource="{ThemeFile 'Images/noise/highlight1.png'}" TileMode="Tile" Viewport="0,0,100,100" ViewportUnits="Absolute" Opacity="0.85" RenderOptions.CachingHint="Cache"/>
     <ImageBrush x:Key="ProgressbarBrush" ImageSource="{ThemeFile 'Images/progressbar.png'}" Stretch="UniformToFill"/>

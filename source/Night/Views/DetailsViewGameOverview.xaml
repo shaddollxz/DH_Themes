@@ -177,7 +177,7 @@
                                                         Text="{Binding Game.DisplayName}" DockPanel.Dock="Left"
                                                         FontSize="{DynamicResource FontSizeLargest}" Margin="0,0,10,0" TextWrapping="Wrap"
                                                         VerticalAlignment="Center"
-                                                        Foreground="{DynamicResource TextBrush}" Effect="{DynamicResource TextDropShadow}"
+                                                        Foreground="{DynamicResource TransparentTitleColorBrush}" Effect="{DynamicResource TextDropShadow}"
                                                         x:Name="TitleText"
                                                         Visibility="{DynamicResource TitleVisibility}">
                                                     </TextBlock>
